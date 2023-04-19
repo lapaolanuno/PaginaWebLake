@@ -1,4 +1,5 @@
 body{
 
-    background-color: img/awww.jpg;
+    background-image: url("../img/awww.jpg");
+    background-size: cover
 }
