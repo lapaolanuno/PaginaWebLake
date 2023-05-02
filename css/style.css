@@ -1,5 +1,70 @@
 body{
+    background-color: #f1f1f1;
+    background-image: url("../img/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
 
-    background-image: url("../img/awww.jpg");
-    background-size: cover
+.inicio{
+  display:  flex;
+  flex-direction: column;
+  align-items: center;
+}
+.inicio h1{
+ font-size: 100px;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+font-size: 700;
+}
+.inicio img{
+  border-radius: 100%;
+  border: 5px solid black;
+}
+
+h1{
+    color: rgb(78, 9, 9);
+}
+
+h2{
+    color: rgba(80, 72, 2, 0.89);
+}
+
+h3{
+    color: rgb(3, 71, 2);
+}
+h4{
+    color: rgb(3, 29, 33);
+}
+h5{
+    color: rgb(78, 1, 33);
+}
+h6{
+    color:  rgb(68, 31, 3);
+}
+
+
+.primer-parrafo{
+    color: white;
+    font-size: 50px;
+    font-family: "Arial";
+    font-weight: 700;
+}
+
+.segundo-parrafo{
+    color: white;
+    font-size: 40px;
+    font-family:cursive;
+    font-weight: 800;
+}
+
+.galeria{
+    display:flex;
+    border: 2px solid white;
+    overflow-x: scroll;
+}
+
+.galeria img{
+    width: 350px;
+    height: 350px
 }
