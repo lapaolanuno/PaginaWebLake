@@ -7,6 +7,7 @@ body{
     color: rgb(4, 67, 72);
 }
 
+>
 .inicio{
   display:  flex;
   flex-direction: column;
@@ -61,7 +62,7 @@ h6{
 .galeria{
     display:flex;
     border: 2px solid rgb(2, 61, 24);
-    border-image: linear-gradient(to bottom,black,red);
+    border-image: linear-gradient(to bottom,black,red );
     overflow-x: scroll;
 }
 
