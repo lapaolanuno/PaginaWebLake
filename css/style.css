@@ -7,7 +7,7 @@ body{
     color: rgb(4, 67, 72);
 }
 
->
+
 .inicio{
   display:  flex;
   flex-direction: column;
@@ -42,6 +42,9 @@ h5{
 }
 h6{
     color:  rgb(68, 31, 3);
+}
+H7{
+    font-size: 60PX;
 }
 
 
